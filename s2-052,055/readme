@@ -1,0 +1,2 @@
+s2-055的漏洞利用，要求jdk为1.7
+并且post发包数据中的Content-Type要为 application/json
