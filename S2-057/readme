@@ -2,7 +2,7 @@ poc参考来源为猎户安全实验室公众号
 https://mp.weixin.qq.com/s?__biz=MzI1NDg4MTIxMw==&mid=2247483994&idx=1&sn=d4bf5f28a71054ec06eee583045fb9a7&chksm=ea3f3e88dd48b79e4aad9ee36b7bdc1f260af40dd055ad4523fc93f02d325fc54deaa4f2a7b0&mpshare=1&scene=23&srcid=0823YhgYX5088OcopERpG23N#rd
 
 利用条件：
-只能是strut2.3版本，2.5版本不能弹计算器。
+只能是strut2.3版本
 步骤:
 修改WEB-INF\classes下的struts-actionchaining.xml和WEB-INF\src\java下的struts-actionchaining.xml为
 <struts>
@@ -16,3 +16,7 @@ https://mp.weixin.qq.com/s?__biz=MzI1NDg4MTIxMw==&mid=2247483994&idx=1&sn=d4bf5f
 </struts>
 
 访问exp.txt中的url，即弹出计算器。
+
+最新的2.5版本的弹计算器的poc参考来源为梅子酒的博客
+https://otakekumi.github.io/2018/08/25/S2-057-%E6%BC%8F%E6%B4%9E%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E3%80%81%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%8F%8AEXP%E6%9E%84%E9%80%A0/
+感谢分享。
